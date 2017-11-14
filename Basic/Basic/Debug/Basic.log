@@ -1,0 +1,14 @@
+﻿HIK.obj : error LNK2005: "void __stdcall g_ExceptionCallBack(unsigned long,long,long,void *)" (?g_ExceptionCallBack@@YGXKJJPAX@Z) already defined in Basic.obj
+HIK.obj : error LNK2005: "struct HWND__ * (__stdcall* GetConsoleWindowAPI)(void)" (?GetConsoleWindowAPI@@3P6GPAUHWND__@@XZA) already defined in Basic.obj
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_Init@0 referenced in function "public: __thiscall HIK::HIK(void)" (??0HIK@@QAE@XZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_Cleanup@0 referenced in function "public: __thiscall HIK::~HIK(void)" (??1HIK@@QAE@XZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_SetExceptionCallBack_V30@16 referenced in function "public: void __thiscall HIK::Init(void)" (?Init@HIK@@QAEXXZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_SetConnectTime@8 referenced in function "public: void __thiscall HIK::Init(void)" (?Init@HIK@@QAEXXZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_SetReconnect@8 referenced in function "public: void __thiscall HIK::Init(void)" (?Init@HIK@@QAEXXZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_Login_V40@8 referenced in function "public: void __thiscall HIK::Init(void)" (?Init@HIK@@QAEXXZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_Logout@4 referenced in function "public: __thiscall HIK::~HIK(void)" (??1HIK@@QAE@XZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_GetLastError@0 referenced in function "public: void __thiscall HIK::Init(void)" (?Init@HIK@@QAEXXZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_StopRealPlay@4 referenced in function "public: bool __thiscall HIK::EndPreview(void)" (?EndPreview@HIK@@QAE_NXZ)
+HIK.obj : error LNK2019: unresolved external symbol __imp__NET_DVR_RealPlay_V40@16 referenced in function "public: bool __thiscall HIK::StartPreview(void)" (?StartPreview@HIK@@QAE_NXZ)
+HCNetSDK.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+D:\Code\hikvisionProject\Basic\Debug\Basic.exe : fatal error LNK1120: 10 unresolved externals
